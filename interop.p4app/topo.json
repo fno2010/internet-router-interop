@@ -16,7 +16,7 @@
       "ctrl_args": {
         "ctrl_port": 1,
         "start_wait": 0.5,
-        "timeout": 1
+        "timeout": 20
       },
       "router_id": "10.0.0.1",
       "lsunit": 3,
@@ -36,6 +36,7 @@
       "class": "lukexuan.router.Router",
       "prog": "lukexuan/router.p4",
       "enable_ctrl": true,
+      "pcap_dump": "/tmp/p4app-logs",
       "ctrl_args": {
         "2": {
           "subnet": "10.0.1.0/24",
